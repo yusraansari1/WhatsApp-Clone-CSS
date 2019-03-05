@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Neue Helvetica® Armenian 25 UltraLight', sans-serif;
+    margin:0;
+    padding:0;
+    font-weight: lighter;
+}
+.bus{
+    background-color: #D0E9EA;
+    margin:10px;
+    text-align: center;
+    flex:2;
+}
+.letsencrypt{
+    background-color: #EDF8F5;
+    margin:10px;
+    text-align: center;
+    flex:2;
+}
+.somepara{
+    font-size:15px;
+    font-weight:lighter;
+}
+.info{
+    margin:20px;
+    box-sizing:border-box;
+}
+.incing{
+    display:inline-block;
+    color:gray;
+    font-weight:lighter;
+}
+.pos{
+    display:flex;
+    flex-direction: column;
+}
+.sym{
+    font-weight:bold;
+    margin-right:30%;
+    padding:20px;
+    text-align: center;
+}
+#pri{
+    font-size:25px;
+    margin-top:0px;
+}
+#thefir{
+    font-size:30px;
+    margin-top:90px;
+    margin-bottom:10px;
+    font-weight: lighter;
+}
+#thesec{
+    font-family: 'Neue Helvetica® Armenian 25 UltraLight', sans-serif;
+    font-size: 14px;
+    color: rgb(62, 56, 56);
+}
+.thelast{
+    color:gray;
+    font-weight: lighter;
+    margin-bottom:10px;
+    font-size:13px;
+}
+.navdiv{
+    height:100px;
+}
+.navcontain{
+    display:flex;
+    justify-content: flex-end;
+    position: fixed;
+    top:10;
+    left:0;
+    background-color: #1EBEA5;
+    width:100%;
+}
+.navcontain a{
+    padding:35px 30px;
+    color:white;
+    text-decoration: none;
+    font-size:12px;
+    text-align: center;
+    font-weight:normal;
+    font-family: 'Neue Helvetica® Armenian 25 UltraLight', sans-serif;
+}
+#watsapplink{
+    display:inline-block;
+    font-size:20px;
+    position:absolute;
+    margin:5px;
+    font-family: 'Neue Helvetica® Armenian 25 UltraLight', sans-serif;
+    font-weight: normal;
+}
+.watsapp-image{
+    width:30px;
+    height:32px;
+}
+.sec1{
+    content:"";
+    display:block;
+    clear:both;
+}
+.EN{
+    padding-left:5px;
+    padding-right:5px;
+}
+#toggle{
+    display:none;
+}
+.togglearea{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #1EBEA5;
+    padding:10px;
+}
+.togglearea label{
+    height:45px;
+    width:45px;
+    cursor :pointer;
+    border-radius:6px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.togglearea label span {
+    background-color: black;
+    height:3px;
+    width:70%;
+    margin:2px 0px;
+}
+.togglearea{
+    display: none;
+}
+.dropdown button{
+    border:none;
+    background-color: #1EBEA5;
+    color:white;
+    cursor:pointer;
+    margin-top:35px;
+    margin-right:50px;
+}
+.dropdown .list a{
+    display:block;
+    text-decoration:none;
+    color:black;
+    padding:3px;
+    margin:0px;
+}
+.list{
+    background-color: white;
+    visibility:hidden;
+    opacity:0;
+    position:absolute;
+}
+.dropdown{
+    display:inline-block;
+    position:relative;
+}
+.dropdown:hover div{
+    visibility:visible;
+    opacity:1;
+    position:absolute;
+    right:0%;
+    min-width:200px;
+    height:450px;
+    padding-left:20px;
+}
+.dropdown-list{
+    display:flex;
+}
+.dropdown li{
+    margin:0px;
+    padding:0px;
+    width:150px;
+}
+.dropdown div a:hover{
+    text-decoration:underline;
+}
+.ul{
+    list-style-type: none;
+    display:flex;
+    display:inline-block;
+    margin:0px;
+    padding:0px 20px;
+}
+.secmain{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.colorgray{
+    color:rgba(140,140,140,0.6);
+    font-weight:lighter;
+    font-size:14px;
+}
+.applist{
+    list-style-type:none;
+    padding-left:0px;
+    font-weight: lighter;
+}
+.applist a{
+    text-decoration: none;
+    color:#1EBEA5;
+}
+.appspan{
+    padding:10px;
+    display:inline-block;
+}
+.secondappspan{
+    margin:10px;
+}
+.thirdmain{
+    display:flex;
+    justify-content: center;
+}
+#businessheading{
+    font-size:25px;
+    margin-top:70px;
+    margin-bottom:0px;
+}
+.businesslinks{
+    text-decoration: none;
+    color:	#26cfd4;
+}
+#businesspara{
+    margin-bottom:37px;
+    font-size:15px;
+    font-weight: lighter;
+}
+.mobimage{
+    align-self: center;
+}
+.etepara{
+    font-size:12px;
+    font-weight:lighter;
+    color:gray;
+}
+.mainbutton{
+    display:flex;
+    justify-content: center;
+    padding:6vw;
+}
+.button{
+    border:2px solid #1EBEA5;
+    border-radius : 50px;
+    text-align: center;
+    padding:15px 30px;
+}
+.button a{
+    color:#1EBEA5;
+    text-decoration: none;
+    position:relative;
+    font-weight:lighter;
+}
+.footermaindiv{
+    display:flex;
+    padding:30px;
+    background-color: #273443;
+    justify-content: center;
+}
+.footermaindiv ul{
+    list-style-type: none;
+    margin-right:120px;
+}
+.footermaindiv li{
+    padding:2px;
+    font-size:13px;
+}
+.footermaindiv a{
+    color:white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.footerseconddiv{
+    display:flex;
+    justify-content: space-around;
+    background-color: #272C43;
+    padding:10px;
+}
+.footerseconddiv a{
+    text-decoration: none;
+    color:white;
+    font-weight: lighter;
+    font-size:15px;
+}
+@media screen and (max-width: 700px) {
+    .footermaindiv{
+        display:flex;
+        flex-direction:column;
+    }
+    .footerseconddiv{
+        display:flex;
+        flex-direction:column;
+    }  
+}
+@media screen and (max-width: 700px) {
+    .navcontain{
+        flex-direction:column;
+        display:none;
+    }
+    #toggle:checked + .navcontain{
+        display:flex;
+    }
+    .togglearea{
+        display: flex;
+    }
+}
+@media only screen and (max-width:640px){
+    .button{
+    display:flex;
+    justify-content: center;
+    padding:15px 30px;
+    display:inline-block;
+}
+}
+@media screen and (max-width: 500px) {
+    .thirdmain{
+        flex-direction:column;
+    }
+}
+@media screen and (max-width: 500px){
+    .secmain{
+        flex-direction:column;
+    }
+}
+@media screen and (max-width: 700px) {
+    .navcontain{
+        flex-direction:column;
+        display:none;
+    }
+    #toggle:checked + .nav-container{
+        display:flex;
+    }
+    .togglearea{
+        display: flex;
+    }
+}
